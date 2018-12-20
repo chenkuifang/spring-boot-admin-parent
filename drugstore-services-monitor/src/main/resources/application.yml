@@ -1,0 +1,12 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: drugstor-services-monitor
+  profiles:
+    active: dev
+
+info:
+  name: "@project.name@"
+  description: "@project.description@"
+  version: "@project.version@"

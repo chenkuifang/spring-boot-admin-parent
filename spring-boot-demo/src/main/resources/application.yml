@@ -1,0 +1,13 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: spring-boot-demo
+  profiles:
+    active: dev
+
+info:
+  name: "@project.name@"
+  description: "@project.description@"
+  version: "@project.version@"
+
